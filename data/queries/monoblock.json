@@ -1,0 +1,145 @@
+[
+  {
+    "producer": [
+      "acer",
+      "apple",
+      "artline",
+      "asus",
+      "cobra",
+      "dell",
+      "hp-hewlett-packard",
+      "lenovo",
+      "msi"
+    ]
+  },
+  {
+    "21416": [
+      "geforce-rtx-3060",
+      "geforce-rtx-3060-ti",
+      "geforce-rtx-4060",
+      "geforce-rtx-4060-ti",
+      "geforce-gtx-10501134639",
+      "geforce-gtx-1050-ti1134623",
+      "geforce-gtx-10601139159",
+      "geforce-gtx-10701134631",
+      "geforce-gtx-1650-2210916",
+      "geforce-gtx-1650-super",
+      "geforce-rtx-2070",
+      "geforce-gtx-1660",
+      "geforce-gtx-1660-super",
+      "geforce-rtx-2080",
+      "geforce-rtx-2080-super",
+      "geforce-rtx-3050",
+      "geforce-rtx-3050-ti",
+      "geforce-rtx-3090",
+      "571568",
+      "amd-radeon-rx-6600m",
+      "amd-radeon-vega",
+      "geforce-rtx-4050",
+      "intel-hd-graphics",
+      "radeon-rx-6300m",
+      "radeon-rx-6500-xt-4269271"
+    ]
+  },
+  {
+    "pc_processors": [
+      "intel-core-i9",
+      "6297",
+      "6298",
+      "9785",
+      "amd-ryzen-3",
+      "amd-ryzen-5",
+      "amd-ryzen-7",
+      "intel-core-7",
+      "intel-core-ultra-7",
+      "6267",
+      "6266",
+      "6304",
+      "apple-m1",
+      "apple-m3",
+      "apple-m4",
+      "intel-core-3",
+      "intel-core-5",
+      "intel-core-ultra-5",
+      "intel-n-series",
+      "intel-processor-300"
+    ]
+  },
+  {
+    "21414": [
+      "4648",
+      "4652",
+      "4650",
+      "72764",
+      "16192",
+      "24-gb",
+      "24654",
+      "64-gb"
+    ]
+  },
+  {
+    "obem-ssd": [
+      "120-gb",
+      "128-gb",
+      "240-gb",
+      "250-gb",
+      "256-gb",
+      "480-gb",
+      "500-gb",
+      "512-gb-4558338",
+      "1-tb-4558341",
+      "2-tb",
+      "3-tb"
+    ]
+  },
+  {
+    "obem-videopamyati": [
+      "1-2-gb-i-menee",
+      "3-gb-4440204",
+      "4-gb-4440210",
+      "6-gb-4440213",
+      "8-gb-4440219",
+      "12-gb",
+      "16-gb"
+    ]
+  },
+  {
+    "kolichestvo-yader-protsessora-176682": [
+      "4-i-menshe",
+      "4420623",
+      "1729788",
+      "1729794",
+      "1776825",
+      "1849517",
+      "1849524",
+      "1827439",
+      "2409276"
+    ]
+  },
+  {
+    "77979": ["363735", "363741", "ddr5"]
+  },
+  {
+    "21418": ["48754", "48759", "48764"]
+  },
+  {
+    "70546": [
+      "294475",
+      "294489",
+      "294496",
+      "294503",
+      "294510",
+      "28",
+      "30",
+      "31",
+      "34"
+    ]
+  },
+  {
+    "besprovodnoy-interfeys-221705": [
+      "bluetooth",
+      "wi-fi",
+      "bez-besprovodnogo-podklyucheniya"
+    ]
+  }
+]

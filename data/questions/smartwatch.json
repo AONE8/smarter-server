@@ -1,0 +1,130 @@
+{
+  "title": {
+    "en": "Smartwatch",
+    "uk": "Смартгодинник"
+  },
+  "deviceType": "smartwatch",
+  "questions": [
+    {
+      "name": "brand",
+      "question": { "uk": "Бренд", "en": "Brand" },
+      "answers": [
+        "Amazfit",
+        "Apple",
+        "Garmin",
+        "Gelius",
+        "Google",
+        "Honor",
+        "Huawei",
+        "Lemfo",
+
+        "Samsung",
+        "Smart Watch",
+        "Xiaomi"
+      ],
+      "type": "select"
+    },
+    {
+      "name": "os",
+      "question": { "uk": "Операційна система", "en": "Operating System" },
+      "answers": [
+        "Android Wear OS",
+        "Watch OS OS",
+        "Tizen OS",
+        "Інша OS",
+        "Nucleus OS OS",
+        "Garmin OS",
+        "Harmony OS OS",
+        "MicroOS OS",
+        "LinkIt OS",
+        "Elari OS OS"
+      ],
+      "type": "radio"
+    },
+    {
+      "name": "compatibility",
+      "question": {
+        "uk": "Сумісність з операційною системою",
+        "en": "Compatibility"
+      },
+      "answers": ["Android", "iOS"],
+      "type": "radio"
+    },
+    {
+      "name": "internalMemory",
+      "question": { "uk": "Вбудована пам'ять", "en": "Internal Memory" },
+      "answers": { "uk": ["< 2Гб", "<= 2Гб"], "en": ["< 2GB", "<= 2GB"] },
+      "type": "radio"
+    },
+    {
+      "name": "screenSize",
+      "question": { "uk": "Розмір екрану", "en": "Screen Size" },
+      "answers": ["< 1.5\"", "1.5\" - 1.62\"", "> 1.62\""],
+      "type": "select"
+    },
+    {
+      "name": "wirelessTech",
+      "question": {
+        "uk": "Бездротова технологія",
+        "en": "Wireless Technology"
+      },
+      "answers": ["Bluetooth", "Wi-Fi", "NFC", "ANT+"],
+      "type": "checkbox"
+    },
+    {
+      "name": "sensors",
+      "question": { "uk": "Датчики", "en": "Sensors" },
+      "answers": {
+        "uk": [
+          "Акселерометр",
+          "Лічильник калорій",
+          "Крокомір",
+          "Пульсометр",
+          "Знімання з руки",
+          "Швидкість руху",
+          "Вміст кисню в крові",
+          "Гіроскоп",
+          "З барометром",
+          "З термометром",
+          "Лічильник биття серця",
+          "Тонометр",
+          "Глибиномір"
+        ],
+        "en": [
+          "Accelerometer",
+          "Calorie counter",
+          "Pedometer",
+          "Heart rate monitor",
+          "Hand removal detection",
+          "Movement speed",
+          "Blood oxygen content (SpO2)",
+          "Gyroscope",
+          "With barometer",
+          "With thermometer",
+          "Heartbeat counter",
+          "Tonometer (Blood pressure monitor)",
+          "Depth gauge"
+        ]
+      },
+      "type": "checkbox"
+    },
+    {
+      "name": "watchShape",
+      "question": { "uk": "Форма годинника", "en": "Watch Shape" },
+      "answers": {
+        "uk": ["Кругла", "Прямокутна", "Квадратна"],
+        "en": ["Round", "Rectangular", "Square"]
+      },
+      "type": "select"
+    },
+    {
+      "name": "chargingType",
+      "question": { "uk": "Тип заряджання", "en": "Charging Type" },
+      "answers": {
+        "uk": ["Бездротова", "Магнітна", "Дротова"],
+        "en": ["Wireless", "Magnetic", "Wireless"]
+      },
+      "type": "select"
+    }
+  ]
+}

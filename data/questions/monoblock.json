@@ -1,0 +1,218 @@
+{
+  "title": {
+    "uk": "Моноблок",
+    "en": "All-in-one PC"
+  },
+  "deviceType": "monoblock",
+  "questions": [
+    {
+      "name": "brand",
+      "question": { "uk": "Бренд", "en": "Brand" },
+      "answers": [
+        "Acer",
+        "Apple",
+        "ARTLINE",
+        "ASUS",
+        "Cobra",
+        "Dell",
+        "HP",
+        "Lenovo",
+        "MSI"
+      ],
+      "type": "select"
+    },
+    {
+      "name": "videoCard",
+      "question": { "uk": "Відеокарта", "en": "Video Card" },
+      "answers": [
+        "GeForce RTX 3060",
+        "GeForce RTX 3060 Ti",
+        "GeForce RTX 4060",
+        "GeForce RTX 4060 Ti",
+        "GeForce GTX 1050",
+        "GeForce GTX 1050 Ti",
+        "GeForce GTX 1060",
+        "GeForce GTX 1070",
+        "GeForce GTX 1650",
+        "GeForce GTX 1650 Super",
+        "GeForce RTX 2070",
+        "GeForce GTX 1660",
+        "GeForce GTX 1660 Super",
+        "GeForce RTX 2080",
+        "GeForce RTX 2080 Super",
+        "GeForce RTX 3050",
+        "GeForce RTX 3050 Ti",
+        "Radeon RX Vega",
+        "AMD Radeon RX 6600M",
+        "AMD Radeon Vega",
+        "GeForce RTX 4050",
+        "Intel HD Graphics",
+        "Radeon RX 6300M",
+        "Radeon RX 6500 XT"
+      ],
+      "type": "select"
+    },
+    {
+      "name": "processor",
+      "question": { "uk": "Процесор", "en": "Processor" },
+      "answers": [
+        "Intel Core i9",
+        "Intel Core i7",
+        "Intel Core i5",
+        "Intel Core i3",
+        "AMD Ryzen 3",
+        "AMD Ryzen 5",
+        "AMD Ryzen 7",
+        "Intel Core 7",
+        "Intel Core Ultra 7",
+        "Intel Pentium",
+        "Intel Celeron",
+        "AMD Athlon",
+        "Apple M1",
+        "Apple M3",
+        "Apple M4",
+        "Intel Core 3",
+        "Intel Core 5",
+        "Intel Core Ultra 5",
+        "Intel N-series",
+        "Intel Processor 300"
+      ],
+      "type": "select"
+    },
+    {
+      "name": "ram",
+      "question": { "uk": "Обсяг оперативної пам'яті", "en": "RAM Capacity" },
+      "answers": {
+        "uk": [
+          "4 ГБ",
+          "6 ГБ",
+          "8 ГБ",
+          "12 ГБ",
+          "16 ГБ",
+          "24 ГБ",
+          "32 ГБ",
+          "64 ГБ"
+        ],
+        "en": [
+          "4 GB",
+          "6 GB",
+          "8 GB",
+          "12 GB",
+          "16 GB",
+          "24 GB",
+          "32 GB",
+          "64 GB"
+        ]
+      },
+      "type": "radio"
+    },
+    {
+      "name": "storage",
+      "question": { "uk": "Обсяг накопичувача типу", "en": "Storage Capacity" },
+      "answers": {
+        "uk": [
+          "120 ГБ",
+          "128 ГБ",
+          "240 ГБ",
+          "250 ГБ",
+          "256 ГБ",
+          "480 ГБ",
+          "500 ГБ",
+          "512 ГБ",
+          "1 ТБ",
+          "2 ТБ",
+          "3 ТБ"
+        ],
+        "en": [
+          "120 GB",
+          "128 GB",
+          "240 GB",
+          "250 GB",
+          "256 GB",
+          "480 GB",
+          "500 GB",
+          "512 GB",
+          "1 TB",
+          "2 TB",
+          "3 TB"
+        ]
+      },
+      "type": "checkbox"
+    },
+    {
+      "name": "videoMemory",
+      "question": { "uk": "Обсяг відеопам'яті", "en": "Video Memory Capacity" },
+      "answers": {
+        "uk": [
+          "<= 1.2 ГБ",
+          "2 ГБ",
+          "3 ГБ",
+          "4 ГБ",
+          "6 ГБ",
+          "8 ГБ",
+          "12 ГБ",
+          "16 ГБ"
+        ],
+        "en": [
+          "<= 1.2 GB",
+          "2 GB",
+          "3 GB",
+          "4 GB",
+          "6 GB",
+          "8 GB",
+          "12 GB",
+          "16 GB"
+        ]
+      },
+      "type": "checkbox"
+    },
+    {
+      "name": "cpuCores",
+      "question": { "uk": "Кількість ядер процесора", "en": "CPU Cores" },
+      "answers": ["<= 4", "5", "6", "8", "10", "12", "14", "16", "20"],
+      "type": "checkbox"
+    },
+    {
+      "name": "ramType",
+      "question": { "uk": "Тип оперативної пам'яті", "en": "RAM Type" },
+      "answers": ["DDR3", "DDR4", "DDR5"],
+      "type": "radio"
+    },
+    {
+      "name": "storageType",
+      "question": { "uk": "Тип накопичувача", "en": "Storage Drive Type" },
+      "answers": ["HDD", "SSD", "HDD + SSD"],
+      "type": "radio"
+    },
+    {
+      "name": "screenSize",
+      "question": {
+        "uk": "Роздільна здатність екрану",
+        "en": "Screen Resolution"
+      },
+      "answers": [
+        ">= 20\"",
+        "21\"...22\"",
+        "23\"...24\"",
+        "27\"",
+        "28\"",
+        "30\"",
+        "31\"",
+        "34\""
+      ],
+      "type": "radio"
+    },
+    {
+      "name": "wirelessInterface",
+      "question": {
+        "uk": "Бездротове під'єднання",
+        "en": "Wireless Interface"
+      },
+      "answers": {
+        "uk": ["Bluetooth", "Wi-Fi", "Без бездротового під'єднання"],
+        "en": ["Bluetooth", "Wi-Fi", "No wireless connection"]
+      },
+      "type": "checkbox"
+    }
+  ]
+}

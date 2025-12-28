@@ -1,0 +1,285 @@
+{
+  "title": {
+    "en": "Smartphone",
+    "uk": "Смартфон"
+  },
+  "deviceType": "smartphone",
+  "questions": [
+    {
+      "name": "brand",
+      "question": { "uk": "Бренд", "en": "Brand" },
+      "answers": [
+        "Apple",
+        "HMD",
+        "Infinix",
+        "Motorola",
+        "Nubia",
+        "Poco",
+        "realme",
+        "Samsung",
+        "Sigma mobile",
+        "Tecno",
+        "Ulefone",
+        "Xiaomi"
+      ],
+      "type": "select"
+    },
+    {
+      "name": "screenSize",
+      "question": {
+        "uk": "Роздільна здатність екрану",
+        "en": "Screen Resolution"
+      },
+      "answers": [
+        "<= 4.59\"",
+        "4.6\" - 5\"",
+        "5.01\" - 5.5\"",
+        "5.55\" - 6\"",
+        "6.01\" - 6.49\"",
+        "6.5\" - 6.9\"",
+        ">= 7\""
+      ],
+      "type": "select"
+    },
+    {
+      "name": "ram",
+      "question": { "uk": "Обсяг оперативної пам'яті", "en": "RAM Capacity" },
+      "answers": {
+        "uk": [
+          ">= 2 ГБ",
+          "3 ГБ",
+          "4 ГБ",
+          "6 ГБ",
+          "8 ГБ",
+          "12 ГБ",
+          "16 ГБ",
+          "18 ГБ",
+          "24 ГБ",
+          "32 ГБ"
+        ],
+        "en": [
+          ">= 2 GB",
+          "3 GB",
+          "4 GB",
+          "6 GB",
+          "8 GB",
+          "12 GB",
+          "16 GB",
+          "18 GB",
+          "24 GB",
+          "32 GB"
+        ]
+      },
+      "type": "radio"
+    },
+    {
+      "name": "storage",
+      "question": {
+        "uk": "Обсяг вбудованої пам'яті",
+        "en": "Built-inStorage Capacity"
+      },
+      "answers": {
+        "uk": [
+          ">= 16 ГБ",
+          "32 ГБ",
+          "64 ГБ",
+          "128 ГБ",
+          "256 ГБ",
+          "512 ГБ",
+          "1 ТБ"
+        ],
+        "en": [
+          ">= 16 GB",
+          "32 GB",
+          "64 GB",
+          "128 GB",
+          "256 GB",
+          "512 GB",
+          "1 TB"
+        ]
+      },
+      "type": "checkbox"
+    },
+    {
+      "name": "batteryCapacity",
+      "question": { "uk": "Ємність акумулятора", "en": "Battery Capacity" },
+      "answers": {
+        "uk": [
+          "< 3000 мА*год",
+          "3000 - 3999",
+          "4000 - 4999 мА*год",
+          "5000 - 5999 мА*год",
+          ">= 6000 мА*год"
+        ],
+        "en": [
+          "< 3000 mAh",
+          "3000 - 3999 mAh",
+          "4000 - 4999 mAh",
+          "5000 - 5999 mAh",
+          ">= 6000 mAh"
+        ]
+      },
+      "type": "select"
+    },
+    {
+      "name": "wirelessTech",
+      "question": {
+        "uk": "Бездротові технології",
+        "en": "Wireless Technologies"
+      },
+      "answers": {
+        "uk": ["Bluetooth", "NFC", "Wi-Fi", "Бездротова зарядка"],
+        "en": ["Bluetooth", "NFC", "Wi-Fi", "Wireless charging"]
+      },
+      "type": "checkbox"
+    },
+    {
+      "name": "mainCamera",
+      "question": { "uk": "Основна камера", "en": "Main Camera" },
+      "answers": {
+        "uk": [
+          "<= 15 Мп",
+          "16 - 20.7 Мп",
+          "21 - 48 Мп",
+          "49 - 64 Мп",
+          ">= 100 Мп"
+        ],
+        "en": [
+          "<= 15 MP",
+          "16 - 20.7 MP",
+          "21 - 48 MP",
+          "49 - 64 MP",
+          ">= 100 MP"
+        ]
+      },
+      "type": "select"
+    },
+    {
+      "name": "frontCamera",
+      "question": { "uk": "Фронтальна камера", "en": "Front Camera" },
+      "answers": {
+        "uk": [
+          "<= 8 Мп",
+          "9 - 16 Мп",
+          "17 - 20 Мп",
+          "21 - 30 Мп",
+          "31 - 39 Мп",
+          ">= 40 Мп"
+        ],
+        "en": [
+          "<= 8 MP",
+          "9 - 16 MP",
+          "17 - 20 MP",
+          "21 - 30 MP",
+          "31 - 39 MP",
+          ">= 40 MP"
+        ]
+      },
+      "type": "select"
+    },
+    {
+      "name": "processor",
+      "question": { "uk": "Процесор", "en": "CPU" },
+      "answers": [
+        "Apple",
+        "MediaTek",
+        "Qualcomm Snapdragon",
+        "Samsung Exynos",
+        "Unisoc",
+        "HiSilicon Kirin",
+        "Intel",
+        "Spreadtrum"
+      ],
+      "type": "select"
+    },
+    {
+      "name": "screenResolution",
+      "question": {
+        "uk": "Роздільна здатність екрану",
+        "en": "Screen Resolution"
+      },
+      "answers": [
+        "WQHD (2560х1440)",
+        "Full HD (1920x1080)",
+        "4K UHD (3840x2160)",
+        "HD (1280x720)"
+      ],
+      "type": "radio"
+    },
+    {
+      "name": "screenType",
+      "question": { "uk": "Тип матриці", "en": "Screen Type" },
+      "answers": [
+        "AMOLED",
+        "Super AMOLED",
+        "Dynamic AMOLED",
+        "IPS",
+        "LCD",
+        "LTPS",
+        "OLED",
+        "PLS",
+        "TFT",
+        "TN"
+      ],
+      "type": "radio"
+    },
+    {
+      "name": "refreshRate",
+      "question": { "uk": "Частота оновлення екрана", "en": "Refresh Rate" },
+      "answers": {
+        "uk": [
+          "60 Гц",
+          "90 Гц",
+          "120 Гц",
+          "144 Гц",
+          "165 Гц",
+          "185 Гц",
+          "240 Гц"
+        ],
+        "en": [
+          "60 Hz",
+          "90 Hz",
+          "120 Hz",
+          "144 Hz",
+          "165 Hz",
+          "185 Hz",
+          "240 Hz"
+        ]
+      },
+      "type": "radio"
+    },
+    {
+      "name": "networkStandard",
+      "question": {
+        "uk": "Стандарт мобільного зв'язку",
+        "en": "Mobile Network Standard"
+      },
+      "answers": ["3G", "4G", "5G"],
+      "type": "checkbox"
+    },
+    {
+      "name": "os",
+      "question": { "uk": "Операційна система", "en": "Operating System" },
+      "answers": ["Android", "iOS"],
+      "type": "radio"
+    },
+    {
+      "name": "simCards",
+      "question": { "uk": "Кількість сім-карт", "en": "SIM Cards" },
+      "answers": ["1", "2", "3", "4"],
+      "type": "radio"
+    },
+    {
+      "name": "biometricSensor",
+      "question": {
+        "uk": "Тип біометричного сенсора",
+        "en": "Biometric Sensor"
+      },
+      "answers": {
+        "uk": ["Сканер відбитків пальців", "Сканер сітківки", "Сканер обличчя"],
+        "en": ["Fingerprint scanner", "Retina scanner", "Face scanner"]
+      },
+      "type": "checkbox"
+    }
+  ]
+}

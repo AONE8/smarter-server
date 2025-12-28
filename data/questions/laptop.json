@@ -1,0 +1,320 @@
+{
+  "title": {
+    "en": "Laptop",
+    "uk": "Ноутбук"
+  },
+  "deviceType": "laptop",
+  "questions": [
+    {
+      "name": "brand",
+      "question": { "uk": "Бренд", "en": "Brand" },
+      "answers": [
+        "Acer",
+        "Apple",
+        "ASUS",
+        "Dell",
+        "Gigabyte",
+        "HP",
+        "Huawei",
+        "Lenovo",
+        "Microsoft",
+        "MSI",
+        "Samsung",
+        "Xiaomi"
+      ],
+      "type": "select"
+    },
+    {
+      "name": "ram",
+      "question": { "uk": "Обсяг оперативної пам'яті", "en": "RAM Capacity" },
+      "answers": {
+        "uk": [
+          "<= 3 ГБ",
+          "4 Гб",
+          "6 Гб...8 Гб",
+          "10 Гб...12 Гб",
+          "16 Гб",
+          "18 Гб...24 Гб",
+          "32 Гб"
+        ],
+        "en": [
+          [
+            "<= 3 GB",
+            "4 GB",
+            "6 GB...8 GB",
+            "10 GB...12 GB",
+            "16 GB",
+            "18 GB...24 GB",
+            "32 GB"
+          ]
+        ]
+      },
+      "type": "radio"
+    },
+    {
+      "name": "screenSize",
+      "question": { "uk": "Розмір екрану", "en": "Screen Size" },
+      "answers": ["<13\"", "13\"", "14\"", "15\"...16\"", "17\"", ">= 18\""],
+      "type": "checkbox"
+    },
+    {
+      "name": "processor",
+      "question": { "uk": "Процесор", "en": "CPU" },
+      "answers": [
+        "Intel Core i7",
+        "Intel Core i5",
+        "Intel Core i3",
+        "AMD Ryzen 7",
+        "AMD Ryzen 5",
+        "AMD Ryzen 3",
+        "Intel Core i9",
+        "AMD Ryzen 9",
+        "Intel Core Ultra 5",
+        "Intel Core Ultra 7",
+        "Intel Core Ultra 9",
+        "M4",
+        "Intel Pentium",
+        "AMD Athlon",
+        "M2",
+        "M3",
+        "Intel Core 3",
+        "Intel Core 5",
+        "Intel Core 7",
+        "Intel Celeron",
+        "Intel N-series",
+        "Intel Core 2 Duo",
+        "Intel Core Duo",
+        "Intel Pentium_",
+        "Intel Core Solo",
+        "AMD Phenom",
+        "AMD Turion",
+        "AMD Sempron",
+        "AMD V",
+        "AMD Neo",
+        "nVidia Tegra"
+      ],
+      "type": "select"
+    },
+    {
+      "name": "storage",
+      "question": { "uk": "Обсяг накопичувача типу", "en": "Storage Capacity" },
+      "answers": {
+        "uk": [
+          "120 ГБ",
+          "128 ГБ",
+          "256 ГБ",
+          "480 ГБ",
+          "500 ГБ",
+          "512 ГБ",
+          "525 ГБ",
+          "600 ГБ",
+          "620 ГБ",
+          "640 ГБ",
+          "730 ГБ",
+          "750 ГБ",
+          "768 ГБ",
+          "960 ГБ",
+          "1 ТБ",
+          ">= 2 ТБ"
+        ],
+        "en": [
+          "120 GB",
+          "128 GB",
+          "256 GB",
+          "480 GB",
+          "500 GB",
+          "512 GB",
+          "525 GB",
+          "600 GB",
+          "620 GB",
+          "640 GB",
+          "730 GB",
+          "750 GB",
+          "768 GB",
+          "960 GB",
+          "1 TB",
+          ">= 2 TB"
+        ]
+      },
+      "type": "checkbox"
+    },
+    {
+      "name": "videoMemory",
+      "question": { "uk": "Обсяг відеопам'яті", "en": "Video Memory Capacity" },
+      "answers": {
+        "uk": ["2 ГБ", "3 ГБ", "4 ГБ", "6 ГБ", "8 ГБ"],
+        "en": ["2 GB", "3 GB", "4 GB", "6 GB", "8 GB"]
+      },
+      "type": "radio"
+    },
+    {
+      "name": "refreshRate",
+      "question": {
+        "uk": "Частота оновлення екрану",
+        "en": "Screen Refresh Rate"
+      },
+      "answers": {
+        "uk": [
+          "60 Гц",
+          "90 Гц",
+          "100 Гц",
+          "120 Гц",
+          "144 Гц",
+          "165 Гц",
+          "180 Гц",
+          "240 Гц",
+          "250 Гц",
+          "300 Гц",
+          "360 Гц",
+          "480 Гц"
+        ],
+        "en": [
+          "60 Hz",
+          "90 Hz",
+          "100 Hz",
+          "120 Hz",
+          "144 Hz",
+          "165 Hz",
+          "180 Hz",
+          "240 Hz",
+          "250 Hz",
+          "300 Hz",
+          "360 Hz",
+          "480 Hz"
+        ]
+      },
+      "type": "select"
+    },
+    {
+      "name": "cpuCores",
+      "question": {
+        "uk": "Кількість ядер процесора",
+        "en": "Number of CPU Cores"
+      },
+      "answers": ["4", "6", "8", "10", "12", "14"],
+      "type": "checkbox"
+    },
+    {
+      "name": "ramType",
+      "question": { "uk": "Тип оперативної пам'яті", "en": "RAM Type" },
+      "answers": ["DDR3", "DDR4", "DDR5", "DDR6"],
+      "type": "checkbox"
+    },
+    {
+      "name": "videoCardType",
+      "question": { "uk": "Тип відеокарти", "en": "Video Card Type" },
+      "answers": [
+        "GeForce RTX 2050",
+        "GeForce RTX 3050",
+        "GeForce RTX 4050",
+        "GeForce RTX 4060",
+        "GeForce RTX 4070",
+        "GeForce RTX 4080",
+        "GeForсe RTX 4090",
+        "GeForce RTX 5070 Ti",
+        "GeForce RTX 5080",
+        "GeForce RTX 5090",
+        "GeForce RTX 3060",
+        "Intel ARC",
+        "GeForce RTX 3080",
+        "GeForce RTX 3070 Ti",
+        "GeForce RTX 3050 Ti",
+        "GeForce GTX 1650",
+        "GeForce RTX 3080 Ti",
+        "GeForce RTX 3500",
+        "GeForce GTX 1650 Max-Q",
+        "GeForce RTX 2060",
+        "GeForce RTX 2060 Max-Q",
+        "GeForce RTX 2070",
+        "GeForce RTX 2070 Max-Q",
+        "GeForce RTX 2070 Super",
+        "GeForce RTX 2070 Super Max-Q",
+        "GeForce RTX 2080",
+        "GeForce RTX 2080 Max-Q",
+        "GeForce RTX 2080 Super",
+        "GeForce RTX 2080 Super Max-Q",
+        "GeForce RTX 3070",
+        "GeForce RTX 4050 Max-Q",
+        "GeForce RTX 2000",
+        "GeForce RTX 3050M",
+        "GeForce RTX 3060 Max-Q"
+      ],
+      "type": "select"
+    },
+    {
+      "name": "screenType",
+      "question": { "uk": "Тип екрану", "en": "Screen Type" },
+      "answers": ["IPS", "OLED", "VA", "TN", "Liquid Retina", "Mini-LED"],
+      "type": "radio"
+    },
+    {
+      "name": "screenResolution",
+      "question": {
+        "uk": "Роздільна здатність екрану",
+        "en": "Screen Resolution"
+      },
+      "answers": [
+        "2K QHD (Quad HD)",
+        "4K UHD (Ultra HD)",
+        "Full HD",
+        "ЗК",
+        "5K",
+        "< Full HD"
+      ],
+      "type": "select"
+    },
+    {
+      "name": "storageType",
+      "question": { "uk": "Тип накопичувача", "en": "Storage Drive Type" },
+      "answers": [
+        "SSD",
+        "SSD + HDD",
+        "eMMC",
+        "HDD",
+        "Optane + HDD",
+        "Optane + SSHD"
+      ],
+      "type": "select"
+    },
+    {
+      "name": "batteryCapacity",
+      "question": {
+        "uk": "Ємність акумулятора",
+        "en": "Battery Capacity (Wh)"
+      },
+      "answers": ["< 30", "30 — 50", "51 — 70", "71 — 90", "> 90"],
+      "type": "select"
+    },
+    {
+      "name": "additionalFeatures",
+      "question": { "uk": "Додаткові можливості", "en": "Additional Features" },
+      "answers": {
+        "uk": [
+          "Ідентифікація відбитка пальця",
+          "З 3G/4G/5G модулем",
+          "З підсвіткою клавіатури",
+          "З сенсорним екраном",
+          "Зарядка від USB",
+          "Порт Thunderbolt",
+          "Протиударний корпус",
+          "Підтримує під'єднання 2 моніторів",
+          "З оптичним приводом",
+          "Знімна батарея"
+        ],
+        "en": [
+          "Fingerprint identification",
+          "With 3G/4G/5G module",
+          "With keyboard backlight",
+          "With touchscreen",
+          "USB charging",
+          "Thunderbolt port",
+          "Shock-resistant case",
+          "Supports connection of 2 monitors",
+          "With optical drive",
+          "Removable battery"
+        ]
+      },
+      "type": "checkbox"
+    }
+  ]
+}

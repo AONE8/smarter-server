@@ -1,0 +1,66 @@
+[
+  {
+    "producer": [
+      "amazfit",
+      "apple",
+      "garmin",
+      "gelius",
+      "google",
+      "honor",
+      "huawei",
+      "lemfo",
+      "samsung",
+      "smart-watch",
+      "xiaomi"
+    ]
+  },
+  {
+    "operatsionnaja-sistema-94235": [
+      "android",
+      "watch-os",
+      "tizen",
+      "drugaya",
+      "nucleus-os",
+      "garmin",
+      "harmony-os",
+      "microos",
+      "linkit",
+      "elari-os"
+    ]
+  },
+  {
+    "41000": ["484100", "484107"]
+  },
+  {
+    "40964": ["484261", "484268"]
+  },
+  {
+    "40940": ["484079", "484086", "484093"]
+  },
+  {
+    "interfeys-podklyucheniya-203412": ["bluetooth", "wi-fi", "nfc", "ant"]
+  },
+  {
+    "datchiki-203418": [
+      "akselerometr",
+      "schetchik-kaloriy",
+      "shagomer",
+      "pulsometr",
+      "snyatiya-s-ruki",
+      "skorost-dvigeniya",
+      "soderganie-kisloroda-v-krovi",
+      "giroskop",
+      "c-barometrom",
+      "c-termometrom",
+      "schetchik-bieniya-serdtsa",
+      "tonometr",
+      "glubinomer"
+    ]
+  },
+  {
+    "forma-chasov": ["kruglie", "pryamougolnie", "kvadratnie"]
+  },
+  {
+    "tip-zarjadki-94214": ["besprovodnaja", "magnitnaya", "provodnaja"]
+  }
+]

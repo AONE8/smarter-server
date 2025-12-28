@@ -1,0 +1,146 @@
+[
+  {
+    "producer": [
+      "apple",
+      "hmd",
+      "infinix",
+      "motorola",
+      "nubia",
+      "poco",
+      "realme",
+      "samsung",
+      "sigma-mobile",
+      "tecno",
+      "ulefone",
+      "xiaomi"
+    ]
+  },
+  {
+    "23777": [
+      "25315",
+      "50074",
+      "93089",
+      "114812",
+      "6-6-5",
+      "6-5-6-9",
+      "7-i-bolee"
+    ]
+  },
+  {
+    "38435": [
+      "55365",
+      "103765",
+      "258255",
+      "677049",
+      "8-gb",
+      "12-gb",
+      "16-gb",
+      "18-gb",
+      "24-gb",
+      "32-gb"
+    ]
+  },
+  {
+    "41404": [
+      "do-8gb",
+      "32-gb",
+      "64-gb",
+      "16gb",
+      "256-gb1261112",
+      "512-gb",
+      "1-tb"
+    ]
+  },
+  {
+    "52852": [
+      "124047",
+      "124057",
+      "4000-4999-ma-ch",
+      "5000-5999-ma-ch",
+      "6000-ma-ch-i-bolee"
+    ]
+  },
+  {
+    "kommunikatsii-237321": [
+      "bluetooth",
+      "nfc",
+      "wi-fi",
+      "besprovodnaya-zaryadka"
+    ]
+  },
+  {
+    "20850": [
+      "15-mp-i-menee",
+      "31276",
+      "ot-25-mp-do-47-mp",
+      "ot-48-mp-i-bolee",
+      "100-mp-i-bolee"
+    ]
+  },
+  {
+    "49180": [
+      "8-mp-i-menee",
+      "9-16-mp",
+      "17-20-mp",
+      "21-30-mp",
+      "31-39-mp",
+      "40-mp-i-bolee"
+    ]
+  },
+  {
+    "protsessor": [
+      "apple",
+      "mediatek",
+      "qualcomm-snapdragon",
+      "samsung-exynos",
+      "unisoc",
+      "hisilicon-kirin",
+      "intel",
+      "spreadtrum"
+    ]
+  },
+  {
+    "23778": ["102630", "25480", "4k-uhd-3840x2160", "25481"]
+  },
+  {
+    "31565": [
+      "79954",
+      "79984",
+      "dynamic-amoled",
+      "79959",
+      "lcd-4375656",
+      "136527",
+      "oled",
+      "38040",
+      "38045",
+      "38075"
+    ]
+  },
+  {
+    "chastota-obnovleniya-ekrana-237226": [
+      "60-gts",
+      "90-gts",
+      "120-gts",
+      "144-gts",
+      "165-gts",
+      "185-gts",
+      "240-gts"
+    ]
+  },
+  {
+    "standart-svyazi-83148": ["3g-umts-hsupa-hspa-wcdma-cdma", "406363", "5g"]
+  },
+  {
+    "op_system": ["247", "246"]
+  },
+  {
+    "23017": ["10288", "15760", "15761", "1558704"]
+  },
+  {
+    "bezopasnost-237276": [
+      "skaner-otpechatkov-paltsev-sboku, skaner-otpechatkov-paltsev-szadi, skaner-otpechatkov-paltsev-na-ekrane",
+      "skaner-setchatki-glaza",
+      "razblokirovka-po-litsu"
+    ]
+  }
+]
