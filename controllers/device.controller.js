@@ -44,6 +44,7 @@ class DeviceController {
 
       return res.status(200).json(device);
     } catch (error) {
+      console.log("Error in device controller", error);
       next(error);
     }
   }

@@ -38,7 +38,7 @@ export default class Mapper {
 
     const [firstObjectValue, secondObjectValue] = cb(
       firstObj[firstObjectKey],
-      secondObj[secondObjectKey]
+      secondObj[secondObjectKey],
     );
 
     this.mapping.set(firstObjectKey, [
@@ -53,8 +53,6 @@ export default class Mapper {
   map(objectToMap) {
     const result = {};
 
-    console.log("ObjectToMap:", objectToMap);
-
     for (const key of Object.keys(objectToMap)) {
       const [firstValue, secondObject] = this.mapping.get(key);
 
@@ -62,11 +60,11 @@ export default class Mapper {
 
       if (Array.isArray(objectToMap[key])) {
         const indices = objectToMap[key].map((value) =>
-          firstValue.indexOf(value)
+          firstValue.indexOf(value),
         );
 
         result[secondObjectKey] = secondObject[secondObjectKey].filter(
-          (_, index) => indices.includes(index)
+          (_, index) => indices.includes(index),
         );
 
         continue;
@@ -76,8 +74,6 @@ export default class Mapper {
 
       result[secondObjectKey] = secondObject[secondObjectKey][index];
     }
-
-    console.log("Result:", result);
 
     return result;
   }
