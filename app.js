@@ -40,7 +40,9 @@ app.use("/device", deviceRoutes);
 
 app.use((err, req, res, next) => {
   console.log(err.stack);
-  res.status(500).json({ errors: [{ message: "Internal Server Error" }] });
+  res
+    .status(500)
+    .json({ errors: [{ message: "Internal Server Error", error: err.stack }] });
 });
 
 db.sequelize
