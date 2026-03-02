@@ -1,3 +1,4 @@
+import { exec } from "child_process";
 import puppeteer from "puppeteer";
 
 const NAVIGATION_TIMEOUT_MS = 120000;
@@ -6,6 +7,7 @@ const USER_AGENT =
 
 async function initializePageForScrapping(url) {
   let browser;
+
   try {
     browser = await puppeteer.launch({
       headless: "new",
@@ -15,7 +17,6 @@ async function initializePageForScrapping(url) {
         "--disable-setuid-sandbox",
         "--disable-dev-shm-usage",
         "--disable-gpu",
-        // "--single-process",
       ],
     });
 
